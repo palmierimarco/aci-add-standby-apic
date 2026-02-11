@@ -1,0 +1,5 @@
+# Insert APIC credentials of existing cluster
+---
+apic_ip: "apic-ip-address"
+apic_user: "username"
+apic_pwd: "super-secret-password"

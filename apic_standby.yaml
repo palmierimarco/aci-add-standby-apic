@@ -1,0 +1,19 @@
+#
+# IMPORTANT: Change all parameters according to your infrastructure
+#
+# Insert the CIMC IP address and credentials of the APIC server you want to become standby
+# Insert the pod ID where the standby APIC is connected
+# Insert the hostname of the standby APIC
+# Insert the node ID for the standby APIC. Node ID must be unique and > 21.
+# Insert the admin password for the standby APIC
+# Insert the OOB IP address and gateway for the standby APIC
+---
+standby_apic_cimc_ip: "10.150.21.20"
+standby_apic_cimc_user: "admin"
+standby_apic_cimc_pwd: "super-secret-password"
+standby_apic_pod_id: "3"
+standby_apic_name: "apic-24"
+standby_apic_node_id: "24"
+standby_apic_admin_pwd: "super-secret-password"
+standby_apic_oob_ip: "10.150.21.21/24"
+standby_apic_oob_gw: "10.150.21.1"
