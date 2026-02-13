@@ -1,3 +1,4 @@
+[![Pylint](https://github.com/palmierimarco/aci-add-standby-apic/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/palmierimarco/aci-add-standby-apic/actions/workflows/pylint.yml)
 ### Introduction
 
 This script makes it easy to add an APIC standby node using Python in the Application Centric Infrastructure (ACI) 6.x release, as an alternative to Postman as described in this [Cisco document](https://www.cisco.com/c/en/us/support/docs/cloud-systems-management/application-policy-infrastructure-controller-apic/224101-configure-a-standby-node-in-cisco-aci.html). This procedure is necessary as a workaround for this [BUG](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwo01130).
