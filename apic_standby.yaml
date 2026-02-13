@@ -9,7 +9,7 @@
 # Insert the OOB IP address and gateway for the standby APIC
 ---
 standby_apic_cimc_ip: "10.150.21.20"
-standby_apic_cimc_user: "admin"
+standby_apic_cimc_user: "cimc-admin-username"
 standby_apic_cimc_pwd: "super-secret-password"
 standby_apic_pod_id: "3"
 standby_apic_name: "apic-24"
